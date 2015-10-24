@@ -17,15 +17,15 @@ module.exports = function(stream, io){
     };
 
     // Create a new model instance with our object
-    var tweetEntry = new Tweet(tweet);
+    //var tweetEntry = new Tweet(tweet);
 
     // Save 'er to the database
-    tweetEntry.save(function(err) {
-      if (!err) {
-        // If everything is cool, socket.io emits the tweet.
-        io.emit('tweet', tweet);
-      }
-    });
+    //tweetEntry.save(function(err) {
+      //if (!err) {
+         //If everything is cool, socket.io emits the tweet.
+        //io.emit('tweet', tweet);
+      //}
+    //});
 
   });
 
