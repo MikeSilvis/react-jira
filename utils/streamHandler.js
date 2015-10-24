@@ -1,5 +1,3 @@
-var Tweet = require('../models/Tweet');
-
 module.exports = function(stream, io){
 
   // When tweets get sent our way ...
